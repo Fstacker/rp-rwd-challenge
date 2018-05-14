@@ -7,14 +7,14 @@ html {
 body {
 	font-size: 1em;
 	/*max-width: 1200px; */
-	width: 96%;
-	margin: 0 auto; 
-	font-family: 'Montserrat', 'merriweather sans', sans-serif;
+	width: 96%; 
+	font-family: 'Montserrat', sans-serif;
 }
 
 p {
 	line-height: 1.3em;
-	font-size: .875em;
+	font-size: 1em;
+	font-family: 'merriweather sans', sans-serif;
 }
 
 h1,
@@ -34,7 +34,7 @@ h4 {
 /*  HEADER & NAV =========================== */
 
 header {
-	width: 100%;
+	width: 92%;
 	margin: 10px auto;
 	display: block;
 }
@@ -44,6 +44,7 @@ header h1 {
 	text-align: center;
 	padding: 30px;
 	margin: auto;
+	border-bottom: 1px solid #bbb;
 }
 
 header h1 span {
@@ -59,16 +60,16 @@ header nav a {
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #111;
+	color: #77a466;
 	font-weight: 600;
 	padding: 5px;
 }
 
-header nav a .top {
-	/*margin-top: 10px;*/
-}
-
 /*  TOP SECTION ============================ */
+
+.top-section {
+	border-bottom: 1px solid #bbb;
+}
 
 .main-image {
 	width: 100%;
@@ -77,22 +78,27 @@ header nav a .top {
 
 .main-image img {
 	width: 100%;
-	margin: auto;
+	margin: auto 0;
 	display: block;
 	border-top: 2px solid #77a466;
 	border-bottom: 2px solid #77a466;
 }
 
 .main-title h3 {
-
+	color: #77a466;
+	font-weight: 600;
+	text-align: center;
 }
 
 .main-title p {
-
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'merriweather sans', sans-serif;
 }
 
 .main-title p span {
-
+	display: block;
+	padding: 7px 0;
 }
 
 
@@ -101,36 +107,56 @@ header nav a .top {
 
 
 .bottom-section h4 {
-
+	font-size: .75em;
+	color: #111;
+	text-align: center;
 }
 
 .section-one,
 .section-two,
 .section-three {
-
+	padding-bottom: 10px;
+	margin: 20px 0;
+	border-bottom: 1px solid #bbb;
 }
 
 .menu {
-
+	margin: 10px 0;
+	list-style: none;
+	padding: 0;
 }
 
 .menu li {
-
+	font-size: .9375em;
+	color: #77a466;
+	font-weight: 450;
+	text-align: center;
 }
 
 .address {
-
+	text-align: center;
 }
 
 /*  FOOTER ================================= */
 
 footer {
 	width: 100%;
-	height: 60px;
+	height: 50px;
+	font-size: .75em;
+	margin: 0;
+	clear: both;
+	text-align: center;
+}
+
+footer h4 {
+	vertical-align: middle;
 }
 
 footer span {
 	font-family: "mr dafoe", cursive;
+	color: #77a466;
+	text-transform: none;
+	font-size: 1em;
 }
 
 /*  TABLET ================================= */
