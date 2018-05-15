@@ -1,175 +1,169 @@
 /*  BASE STYLES ============================ */
 html {
 	font-size: 16px;
-	width: 100%;
 }
 
 body {
 	font-size: 1em;
-	max-width: 1200px; 
-	margin: 0 auto; 
-	font-family: Montserrat, Helvetica, Arial, sans-serif;
-}
-
-p {
-	padding: 0 30px;
-	line-height: 1.3em;
-	font-size: .875em;
-}
-
-.top-section {
-	font-size: 1.875em;
-}
-
-.top-section h3 {
-	font-size: 1.125px; 
-	text-align: center; 
-	padding: 15px;
-}
-
-h1, 
-h3, 
-h4 {
-	color: #000; 
-	text-transform: uppercase; 
-}
-
-h1 {
-	font-size: 30px; 
-	text-align: left; 
-	width: auto; 
-	float: left; 
-	padding: 15px 0;
-}
-
-
-
-h4 {
-	font-size: 12px;
-}
-
-.main-title h3 {
-	text-align: left; 
-	padding: 5px 0px; 
-	text-transform: uppercase; 
-	color: #77a466; 
-}
-
-
-/*The widths are in a percentage!*/
-header {
-	width: 100%; 
-	height: 110px; 
-	border-bottom: 3px solid #77a466; 
+	/*max-width: 1200px; */
+	width: 92%; 
+	font-family: 'Montserrat', sans-serif;
 	margin: 0 auto;
 }
 
-header span {
+p {
+	line-height: 1.3em;
+	font-size: 1em;
+	font-family: 'merriweather sans', sans-serif;
+}
+
+h1,
+h3,
+h4 {
+	color: #111;
+	text-transform: uppercase;
+}
+
+.top-section,
+.bottom-section {
+	width: 100%;
+	margin: 10 auto;
+	clear: both;
+}
+
+/*  HEADER & NAV =========================== */
+
+header {
+	width: 92%;
+	margin: 0 auto;
+	display: block;
+}
+
+header h1 {
+	font-size: 1.875em;
+	text-align: center;
+	padding: 30px;
+	margin: auto;
+	border-bottom: 1px solid #77a466;
+}
+
+header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	float: right; 
-	padding: 45px 0px;
+	padding: 20px 0;
 }
 
 header nav a {
-	text-decoration: none; 
-	text-transform: uppercase; 
-	font-weight: bold; 
-	font-size: 14px; 
-	padding: 0 10px; 
-	color:#77a466;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #77a466;
+	font-weight: 600;
+	padding: 5px;
 }
 
-/*The widths are in a percentage!*/
-.top-section, 
-.bottom-section {
-	width: 100%; 
-	margin: 0 auto; 
-	clear: both;
+/*  TOP SECTION ============================ */
+
+.top-section {
+	border-bottom: 1px solid #77a466;
 }
 
 .main-image {
-	width: 100%; 
-	height: auto; 
-	float: left;
+	width: 100%;
+	height: auto;
 }
 
 .main-image img {
-	width: 100%; 
-	border-bottom: 3px solid #77a466;
+	width: 100%;
+	margin: auto 0;
+	display: block;
+	border-top: 2px solid #77a466;
+	border-bottom: 2px solid #77a466;
 }
 
-.main-title {
-	width: 100%; 
-	height: auto; 
-	float: left;
+.main-title h3 {
+	color: #77a466;
+	font-weight: 600;
+	text-align: center;
 }
 
 .main-title p {
-	padding: 0px; 
-	line-height: 25px; 
-	font-size: 16px;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'merriweather sans', sans-serif;
 }
 
-.section-one, 
-.section-two, 
+.main-title p span {
+	display: block;
+	padding: 7px 0;
+}
+
+
+
+/*  BOTTOM SECTION ========================= */
+
+
+.bottom-section h4 {
+	font-size: .75em;
+	color: #111;
+	text-align: center;
+}
+
+.section-one,
+.section-two,
 .section-three {
-	width: 33%; 
-	height: auto; 
-	float: left; 
-	border-top: 1px solid #eee;
-}
-
-.section-one, 
-.section-two {
-	border-right: 1px solid #eee;
-}
-
-.section-one h4 {
-	padding: 10px 0px;
-}
-
-.section-two h4, 
-.section-three h4 {
-	padding: 10px 30px;
+	padding-bottom: 10px;
+	margin: auto;
+	border-bottom: 1px solid #77a466;
 }
 
 .menu {
-	list-style: none; 
-	padding: 0px;
+	margin: 10px 0;
+	list-style: none;
+	padding: 0;
 }
 
 .menu li {
-	padding: 10px 0; 
-	color:#77a466;
-}
-
-.reviews {
-	color: #333; 
-	line-height: 21px; 
-	font-size: 16px;
+	font-size: .9375em;
+	color: #77a466;
+	font-weight: 450;
+	text-align: center;
 }
 
 .address {
-	font-size: 16px; 
-	line-height: 24px;
+	text-align: center;
 }
 
-/*The widths are in a percentage!*/
+/*  FOOTER ================================= */
+
 footer {
-	width: 100%; 
-	height: 50px; 
-	border-top: 3px solid #eee; 
-	margin: 0 auto; 
-	clear: both; 
+	width: 100%;
+	font-size: .75em;
+	padding: 20px 0;
+	margin: 0;
+}
+
+footer h4 {
+	vertical-align: middle;
 	text-align: center;
 }
 
 footer span {
-	font-family: "mr dafoe", cursive; 
-	text-transform: lowercase; 
-	color: #77a466; 
-	font-size: 14px;
+	font-family: "mr dafoe", cursive;
+	color: #77a466;
+	text-transform: none;
+	font-size: 1em;
+}
+
+/*  TABLET ================================= */
+@media all and (min-width: 768px) {
+
+}
+
+/*  DESKTOP ================================ */
+@media and all (min-width: 940px) {
+
 }
