@@ -1,14 +1,14 @@
 /*  BASE STYLES ============================ */
 html {
 	font-size: 16px;
-	width: 100%;
 }
 
 body {
 	font-size: 1em;
 	/*max-width: 1200px; */
-	width: 96%; 
+	width: 92%; 
 	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
 }
 
 p {
@@ -35,7 +35,7 @@ h4 {
 
 header {
 	width: 92%;
-	margin: 10px auto;
+	margin: 0 auto;
 	display: block;
 }
 
@@ -44,7 +44,7 @@ header h1 {
 	text-align: center;
 	padding: 30px;
 	margin: auto;
-	border-bottom: 1px solid #bbb;
+	border-bottom: 1px solid #77a466;
 }
 
 header h1 span {
@@ -52,7 +52,7 @@ header h1 span {
 }
 
 header nav {
-	margin: 10px auto;
+	padding: 20px 0;
 }
 
 header nav a {
@@ -68,7 +68,7 @@ header nav a {
 /*  TOP SECTION ============================ */
 
 .top-section {
-	border-bottom: 1px solid #bbb;
+	border-bottom: 1px solid #77a466;
 }
 
 .main-image {
@@ -116,8 +116,8 @@ header nav a {
 .section-two,
 .section-three {
 	padding-bottom: 10px;
-	margin: 20px 0;
-	border-bottom: 1px solid #bbb;
+	margin: auto;
+	border-bottom: 1px solid #77a466;
 }
 
 .menu {
@@ -141,15 +141,14 @@ header nav a {
 
 footer {
 	width: 100%;
-	height: 50px;
 	font-size: .75em;
+	padding: 20px 0;
 	margin: 0;
-	clear: both;
-	text-align: center;
 }
 
 footer h4 {
 	vertical-align: middle;
+	text-align: center;
 }
 
 footer span {
